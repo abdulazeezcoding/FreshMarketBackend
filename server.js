@@ -1,10 +1,10 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import Product from "./routes/product.routes.js";
-import Order from "./routes/order.routes.js";
-import { errorHandlerMiddleware } from "./middlewares/errorHandlers.js";
-import {router} from "./routes/user.routes.js";
+import Product from "./src/routes/product.routes.js";
+import Order from "./src/routes/order.routes.js";
+import { errorHandlerMiddleware } from "./src/middlewares/errorHandlers.js";
+import {router} from "./src/routes/user.routes.js";
 import cors from "cors";
 
 dotenv.config();
